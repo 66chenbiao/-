@@ -1,5 +1,5 @@
 ## 写在前面的话
-如果用电脑浏览器打开GitHub的.md文件，有些公式显示不出来，可以参考这篇资[料显示github中markdown文档的公式](https://blog.csdn.net/bitcarmanlee/article/details/87829033)
+如果用电脑浏览器打开GitHub的.md文件，有些公式显示不出来，可以参考这篇资料[显示github中markdown文档的公式](https://blog.csdn.net/bitcarmanlee/article/details/87829033)
 
 
 
