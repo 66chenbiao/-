@@ -247,7 +247,13 @@ return np.average(output_scores, weights=avg_weights)
 
 刚刚说到，指明uniform_average，则avg_weights设置为None。在numpy.average这个方法里，如果权重是None，计算均值就是简单的mean()函数。
 
+## TransformerMixin
 
+![](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200323112754626-781647688.png)
+
+这个混入类的实现比较简单，完全依靠使用它的类自己实现的fit方法和transform方法。但是它会根据是否有标签，决定是有监督任务还是无监督任务。等后面遇到再具体讨论。
+
+![](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200323113102323-948276536.png)
 
 
 
