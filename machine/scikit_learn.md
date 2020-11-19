@@ -130,16 +130,20 @@ clf.get_params()
 这个方法作用是设置参数。正常来说，我们在初始化估计器的时候定制化参数，但是也有临时修改参数的需求，这时可以手工调用**set_params**方法。但是更多的还是由继承BaseEstimator的类来调用这个方法。
 
 具体地，我们看下实现细节：
+
 ![](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200320164932289-1270693722.png)
 
 这个方案支持处理嵌套字典，但是我们不去纠缠这么琐碎，直接看到L251，**setattr(self, key, value)**，对估计器的key属性设置一个新的值。
 
 应用的实例：
+
 ![](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200320170223749-1093534343.png)
 
 ## ClassifierMixin
 Mixin表示混入类，可以简单地理解为给其他的类增加一些额外的方法。Sklearn的分类、回归混入类只实现了**score**方法，任何继承它们的类需要自己去实现**fit、predict**等其他方法。
+
 ![](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200320220339008-43416124.png)
+
 关于混入类，简单的说就是一个父类，但是和普通的类有点不同，它需要指明元对象，**_estimator_type**。这里不再展开论述，感兴趣的读者请阅读这篇讨论[What is a mixin, and why are they useful?](https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-useful)
 
 可以看到，这个混入类的实现非常简单，求预测值和真实值的准确率，返回值是一个浮点数。注意预测值来自**self.predict()**，所以继承混入类的类必须自己实现**predict**方法，否则引发错误。后面不再重复强调该细节。
