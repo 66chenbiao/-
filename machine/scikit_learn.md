@@ -1,6 +1,9 @@
 ## scikit-learn源码分析
 整个SKlearn项目，核心的部分在sklearn这个包里面，算法的使用案例在example包里面
+
 ![scikit-learn 项目结构](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200306162555246-556833908.png)
+
+
 ## sklearn包的简介
 * _check_build
 简单的检查是否正确编译的脚本
@@ -86,7 +89,7 @@ y = [0, 1]  # classes of each sample
 clf.fit(X, y)
 '''
 简单的实例化一个随机森林分类器的对象，我们看下对它调用**get_params**会返回什么：
-'''bash
+'''Bash
 clf.get_params()
 
 {'bootstrap': True,
