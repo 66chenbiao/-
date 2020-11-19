@@ -68,7 +68,9 @@ sklearn的重点数据预处理工具包，包括常见的LabelEncoder、MinMaxS
 
 sklearn项目可以看成一棵大树，各种estimator是果实，而支撑这些估计器的主干，是为数不多的几个基类。常见的几个类有BaseEstimator、BaseSGD、ClassifierMixin、RegressorMixin，等等
 官方文档的API参考页面列出了主要的API接口，我们看下Base类
+
 ![](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200320212850771-1859142633.png)
+
 ## BaseEstimator
 最底层的就是BaseEstimator类。主要暴露两个方法：set_params，get_params
 
@@ -161,7 +163,7 @@ Mixin表示混入类，可以简单地理解为给其他的类增加一些额外
 ## RegressorMixin
 ![](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200320223428058-1221630186.png)
 
-毫不意外地，回归任务的混入类只实现了**score**方法，核心数学原理是**R2**值。公式是**1-((y_true - y_pred)2)/((y_true - y_true_mean)2)**，直观上看，这个值是衡量预测值与真实值的偏离度与真实值自身偏离度的一个比值。 R2最大为1，表示预测完全准确，值为0时表示模型没有任何预测能力。
+毫不意外地，回归任务的混入类只实现了**score**方法，核心数学原理是**R^2**值。公式是**1-((y_true - y_pred)^2)/((y_true - y_true_mean)^2)**，直观上看，这个值是衡量预测值与真实值的偏离度与真实值自身偏离度的一个比值。 R2最大为1，表示预测完全准确，值为0时表示模型没有任何预测能力。
 
 ![](https://img2020.cnblogs.com/blog/1342077/202003/1342077-20200323100147939-433562934.png)
 
