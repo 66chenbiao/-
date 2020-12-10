@@ -36,6 +36,15 @@ Return type: < type 'enumerate' >
 [(2, 'g'), (3, 'e'), (4, 'e'), (5, 'k')]
 ```
 
+## Pyqt5
+[PyQt5-Chinese-tutorial](https://github.com/maicss/PyQt5-Chinese-tutorial)：PyQt5中文教程，翻译自 zetcode，项目地址：https://github.com/maicss/PyQt5-Chinese-tutoral
+
+这个教程比较好的地方是，能讲解每一段代码的含义。
+
+虽然PyQt的函数命名已经非常语义化了，但是对于新手来说，有这一步还是更好的。
+
+所以我选择了翻译这篇教程，希望能给刚入门的你带来帮助。
+
 
 
 ## 机器学习
