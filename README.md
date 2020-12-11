@@ -36,6 +36,13 @@ Return type: < type 'enumerate' >
 [(2, 'g'), (3, 'e'), (4, 'e'), (5, 'k')]
 ```
 
+3、ython源码：[codingdict](http://codingdict.com/sources/py/all)
+
+
+
+
+
+
 ## Pyqt5
 [PyQt5-Chinese-tutorial](https://github.com/maicss/PyQt5-Chinese-tutorial)：PyQt5中文教程，翻译自 zetcode，项目地址：https://github.com/maicss/PyQt5-Chinese-tutoral
 
