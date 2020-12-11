@@ -36,7 +36,7 @@ Return type: < type 'enumerate' >
 [(2, 'g'), (3, 'e'), (4, 'e'), (5, 'k')]
 ```
 
-3、ython源码：[codingdict](http://codingdict.com/sources/py/all)
+3、Python源码：[codingdict](http://codingdict.com/sources/py/all)
 
 
 
