@@ -52,6 +52,24 @@ Return type: < type 'enumerate' >
 
 所以我选择了翻译这篇教程，希望能给刚入门的你带来帮助。
 
+[DearPyGui](https://github.com/hoffstadt/DearPyGui)：DearPyGui是一个易于使用（但功能强大）的Python GUI框架。 DearPyGui提供了Dear ImGui的包装，该包装模拟了传统的保留模式GUI（与Dear ImGui的立即模式范例相反）
+![](https://github.com/hoffstadt/DearPyGui/raw/assets/linuxthemes.PNG?raw=true)
+示例代码：
+```
+from dearpygui import core, simple
+
+def save_callback(sender, data):
+    print("Save Clicked")
+
+with simple.window("Example Window"):
+    core.add_text("Hello world")
+    core.add_button("Save", callback=save_callback)
+    core.add_input_text("string")
+    core.add_slider_float("float")
+
+core.start_dearpygui()
+```
+![](https://github.com/hoffstadt/DearPyGui/raw/assets/BasicUsageExample1.PNG?raw=true)
 
 
 ## 机器学习
