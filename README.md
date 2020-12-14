@@ -71,6 +71,29 @@ core.start_dearpygui()
 ```
 ![](https://github.com/hoffstadt/DearPyGui/raw/assets/BasicUsageExample1.PNG?raw=true)
 
+[PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/cookbook/)：从PySimpleGUI开始，你将对创建自定义GUI带来很大的飞跃。 复制并粘贴这些PySimpleGUI之一，并对其进行修改以符合您的要求。 研究它们以了解一些可以遵循的设计模式。示例代码：
+```
+import PySimpleGUI as sg
+
+sg.theme('DarkAmber')   # Add a touch of color
+# All the stuff inside your window.
+layout = [  [sg.Text('Some text on Row 1')],
+            [sg.Text('Enter something on Row 2'), sg.InputText()],
+            [sg.Button('Ok'), sg.Button('Cancel')] ]
+
+# Create the Window
+window = sg.Window('Window Title', layout)
+# Event Loop to process "events" and get the "values" of the inputs
+while True:
+    event, values = window.read()
+    if event == sg.WIN_CLOSED or event == 'Cancel': # if user closes window or clicks cancel
+        break
+    print('You entered ', values[0])
+
+window.close()
+```
+![](https://user-images.githubusercontent.com/46163555/68713283-7cb38200-056b-11ea-990a-aa1603af5a11.png)
+
 
 ## 机器学习
 2、[examples](https://github.com/pytorch/examples)：关于视觉、本文等方面的 PyTorch 的示例集合。包含：使用 Convnets 的图像分类（MNIST）、生成对抗网络（DCGAN）等
