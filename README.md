@@ -49,8 +49,8 @@ Return type: < type 'enumerate' >
 
 3、Python源码：[codingdict](http://codingdict.com/sources/py/all)
 
-
-
+4、[CPython-Internals](https://github.com/zpoint/CPython-Internals/blob/master/README_CN.md)
+> 图文并茂的 Python 源码阅读笔记项目。阅读的是比较新的 CPython 3.8 版本，重点是项目一直在更新维护
 
 
 
