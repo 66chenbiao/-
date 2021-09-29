@@ -112,6 +112,17 @@ window.close()
 
 
 ## 机器学习
+1、[pumpkin-book](https://github.com/datawhalechina/pumpkin-book)
+
+★Star 18.2k Watch 611 Fork 4.1k 中文
+
+![Github stars](https://img.shields.io/github/stars/DWCTOD/interview.svg)
+
+> 《机器学习公式详解》西瓜书公式推导解析。[在线阅读](https://datawhalechina.github.io/pumpkin-book/#/)
+
+![](https://github.com/66chenbiao/Network-resource-collection/blob/main/images/nangua.jpg)
+
+
 2、[examples](https://github.com/pytorch/examples)：关于视觉、本文等方面的 PyTorch 的示例集合。包含：使用 Convnets 的图像分类（MNIST）、生成对抗网络（DCGAN）等
 
 3、[EasyOCR](https://github.com/JaidedAI/EasyOCR)：支持多种语言的即用型的 Python OCR 库，包括中文、日文、韩文等。示例代码：
@@ -134,14 +145,17 @@ result = reader.readtext('chinese.jpg')
 4、[DeepLearningProject](https://github.com/Spandan-Madan/DeepLearningProject)：哈佛大学开源的深度学习教程
 
 
+
+
+
 ## C 项目
-5、[ucore](https://github.com/kiukotsu/ucore)统课程，配套实验项目。推荐给有计算机结构原理、C 和汇编、数据结构基础并对操作系统感兴趣的同学，项目中包含教学视频、练习题、实验指导书等
+[ucore](https://github.com/kiukotsu/ucore)统课程，配套实验项目。推荐给有计算机结构原理、C 和汇编、数据结构基础并对操作系统感兴趣的同学，项目中包含教学视频、练习题、实验指导书等
 
 ## 其他
-6、[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)：支持网页和 PDF 的划词翻译工具。有了它就可以解决阅读 PDF 文件时，要翻译大段内容情况下的乱码、换行、翻译不准的问题
+1、[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)：支持网页和 PDF 的划词翻译工具。有了它就可以解决阅读 PDF 文件时，要翻译大段内容情况下的乱码、换行、翻译不准的问题
 ![](https://camo.githubusercontent.com/fd39fcd1241c6e66a13c5f083bdc6bf4ce0386f264c331a598437a179acc2b69/68747470733a2f2f73312e617831782e636f6d2f323031382f31312f33302f466d724e46532e676966)
 
 
-7、[styleguide](https://github.com/google/styleguide)：谷歌的代码风格指南。每个大型项目都有自己的代码风格，当代码的风格统一时将更容易被理解。本项目是谷歌项目的代码风格说明，包含：C++、C#、Swift、Python、Java 等语言
+2、[styleguide](https://github.com/google/styleguide)：谷歌的代码风格指南。每个大型项目都有自己的代码风格，当代码的风格统一时将更容易被理解。本项目是谷歌项目的代码风格说明，包含：C++、C#、Swift、Python、Java 等语言
 
 
