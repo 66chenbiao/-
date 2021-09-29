@@ -5,8 +5,9 @@
 
 [目录生成网站](https://toc.codepie.fun/)
 
-[GitHub项目的实时star、watch、fork添加](https://shields.io/category/activity)
+[shields.io](https://shields.io/category/activity)
 
+[octicons](https://github.com/primer/octicons/)
 [GitHub 项目徽章的添加和设置](https://lpd-ios.github.io/2017/05/03/GitHub-Badge-Introduction/)
 
 
