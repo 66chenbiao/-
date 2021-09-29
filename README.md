@@ -115,9 +115,7 @@ window.close()
 ## 机器学习
 1、[pumpkin-book](https://github.com/datawhalechina/pumpkin-book)
 
-★Star 18.2k Watch 611 Fork 4.1k 中文
-
-![Github stars](https://img.shields.io/github/stars/DWCTOD/interview.svg)
+![](https://img.shields.io/github/forks/datawhalechina/pumpkin-book?style=social) ![](https://img.shields.io/github/watchers/datawhalechina/pumpkin-book?style=social ) ![](https://img.shields.io/github/stars/datawhalechina/pumpkin-book?color=green&style=social)
 
 > 《机器学习公式详解》西瓜书公式推导解析。[在线阅读](https://datawhalechina.github.io/pumpkin-book/#/)
 
