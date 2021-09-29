@@ -52,6 +52,9 @@ Return type: < type 'enumerate' >
 4、[CPython-Internals](https://github.com/zpoint/CPython-Internals/blob/master/README_CN.md)
 > 图文并茂的 Python 源码阅读笔记项目。阅读的是比较新的 CPython 3.8 版本，重点是项目一直在更新维护
 
+5、[Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal) 
+> 适用于多种终端的口袋妖怪主题工具。支持 iTerm2、ConEmu、Terminology、Windows 的终端，已经收集了 719 个小精灵
+
 
 
 ## Pyqt5
