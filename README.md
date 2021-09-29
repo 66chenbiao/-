@@ -55,6 +55,8 @@ Return type: < type 'enumerate' >
 5、[Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal) 
 > 适用于多种终端的口袋妖怪主题工具。支持 iTerm2、ConEmu、Terminology、Windows 的终端，已经收集了 719 个小精灵
 
+![](https://github.com/66chenbiao/Network-resource-collection/blob/main/images/Pokemon-Terminal.gif)
+
 
 
 ## Pyqt5
