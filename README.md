@@ -160,4 +160,8 @@ result = reader.readtext('chinese.jpg')
 
 2、[styleguide](https://github.com/google/styleguide)：谷歌的代码风格指南。每个大型项目都有自己的代码风格，当代码的风格统一时将更容易被理解。本项目是谷歌项目的代码风格说明，包含：C++、C#、Swift、Python、Java 等语言
 
+3、[PathPlanning](https://github.com/zhm-real/PathPlanning)：常见的路径规划算法集合。项目包含了 Python 代码实现、运行过程动画以及相关论文
+![PathPlanning](https://user-images.githubusercontent.com/44183747/150706233-de3aa198-efed-45c6-b269-def832041b0e.gif)
+
+
 
